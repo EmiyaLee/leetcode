@@ -17,9 +17,16 @@ set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" "${CMAKE_MODULE_PATH}")
 
 set(CMAKE_DEBUG_POSTFIX "_debug")
 
-set(CMAKE_BUILD_TYPE DEBUG)
+find_package(GTEST REQUIRED)
+
 set(CMAKE_VERBOSE_MAKEFILE ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+include_directories(
+    /usr/include/c++/../../include
+    /usr/include/c++/7
+    /usr/local/include
+    )
 
 add_definitions(-std=c++11)
 

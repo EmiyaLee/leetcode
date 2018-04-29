@@ -27,10 +27,8 @@ bool compare(const std::vector<int32_t> & check, const std::vector<int32_t> & re
     return true;
 }
 
-
 TEST(remove_duplicates, empty) {
     remove_duplicates rd;
-
     std::vector<int32_t> v;
     int32_t a[] = {2,1,1,3,2};
     assign(a, sizeof(a)/sizeof(a[0]), v);
