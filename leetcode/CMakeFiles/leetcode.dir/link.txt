@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libleetcode_debug.a  CMakeFiles/leetcode.dir/leetcode.cpp.o
-/usr/bin/ranlib ../lib/libleetcode_debug.a
