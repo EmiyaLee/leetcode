@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 
-#include "remove_duplicates.h"
+#include "../leetcode/remove_duplicates.h"
 
 #include <algorithm>
 

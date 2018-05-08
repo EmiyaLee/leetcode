@@ -3,9 +3,7 @@
 #include <iostream>
 #include <vector>
 
-
 namespace{
-
     class remove_duplicates{
     public:
         int removeDuplicates(std::vector<int32_t>& nums){
